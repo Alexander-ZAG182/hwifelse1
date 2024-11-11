@@ -21,8 +21,44 @@ public class Main {
 
 
         System.out.println("Задача 4 ");
+        int age1 = 6;
+        if (age1>=2 && age1<=6) { System.out.println("Если возраст человека равен " + age1 +" , то ему нужно ходить в детский сад.");}
+        int age2 = 17;
+        if (age2>=7 && age2<=17) { System.out.println("Если возраст человека равен " + age2 +" , то ему нужно ходить в школу.");}
+        int age3 = 18;
+        if (age3>=18 && age3<=24) { System.out.println("Если возраст человека равен " + age3 +" , то его место в университете.");}
+        int age4 = 25;
+        if (age4>24) { System.out.println("Если возраст человека равен " + age4 +" , то ему пора ходить на работу.");}
+
+        System.out.println( "Задача 5");
+
+        int year1 = 15;
+        boolean thereIsAnEscort = true;
+        if (year1 >14) {System.out.println("Если возраст ребенка равен " + year1 + " то он может кататься на аттракционе.");}
+        if (year1<5) {System.out.println("Если возраст ребенка равен " + year1 + " то он не может кататься на аттракционе.");}
+        if (year1 > 5 && year1 < 14) {
+            if (thereIsAnEscort) {
+                System.out.println("Если возраст ребенка равен " + year1 + " то он может кататься только в сопровождении взрослого");
+            } else {
+                System.out.println("Если возраст ребенка равен " + year1 + " и, если взрослого нет, то кататься нельзя");}
+
+        }
+
+        System.out.println("Задание 6");
+        int allPlace = 102;
+        int seating = 60;
+        int standing = allPlace - seating;
+        int buySeating = 50;
+        int buyStanding = 20;
+        if (buySeating < seating){
+            System.out.println("В вагоне есть сидячие места");}
+        else if (buySeating==seating && buyStanding<standing ) { System.out.println("В вагоне есть стоячие места");}
+        else if (buyStanding==seating && buyStanding==standing) {System.out.println("Вагон полностью забит");}
 
 
+
+
+        System.out.println("Задание 7");
 
 
 
