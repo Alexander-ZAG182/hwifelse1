@@ -48,8 +48,8 @@ public class Main {
         int allPlace = 102;
         int seating = 60;
         int standing = allPlace - seating;
-        int buySeating = 50;
-        int buyStanding = 20;
+        int buySeating = 60;
+        int buyStanding = 40;
         if (buySeating < seating){
             System.out.println("В вагоне есть сидячие места");}
         else if (buySeating==seating && buyStanding<standing ) { System.out.println("В вагоне есть стоячие места");}
@@ -59,6 +59,16 @@ public class Main {
 
 
         System.out.println("Задание 7");
+        int one = 5;
+        int two = 4;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Число one больше остальных");
+        } else if (two > one && two > three) {
+            System.out.println("Число two больше остальных");
+        } else {
+            System.out.println("Число three больше остальных");
+        }
 
 
 
